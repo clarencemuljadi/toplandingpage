@@ -36,3 +36,61 @@
   background-color: #3882f6;
   border-radius: 5px;
 }
+
+#main h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+#main .box {
+  border: 2px solid #3882f6;
+  height: 60px;
+  width: 60px;
+}
+
+#main .caption {
+  color: #1f2937;
+  font-size: 18px;
+}
+
+#quote {
+  background-color: #e5e7eb;
+}
+
+#quote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#quote #author {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+#end {
+  background-color: #3882f6;
+}
+
+#end-left h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+#end-left p {
+  color: #1f2937;
+  font-size: 18px;
+}
+
+#end #end-right button {
+  background-color: #3882f6;
+  border-radius: 5px;
+}
+
+#footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}

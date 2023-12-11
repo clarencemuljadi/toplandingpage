@@ -1,25 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The odin project</title>
+  <title>Landing Page</title>
 </head>
+
 <body>
-  <div id="topbar-container">
-    <h3>Header Logo</h1>
-    <p>header link one</p>
-    <p>header link two</p>
-    <p>header link three</p>
-  </div>
-  <div id="introduction">
-    <h1>This website is awesome</h1>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-    <div>This is a placeholder for an image</div>
-  </div>
-  <div id="middle">
+  <section id="header">
+    <h2>Header Logo</h2>
+    <span>header link one</span>
+    <span>header link two</span>
+    <span>header link three</span>
+  </section>
+  <section id="intro">
+    <div id="intro-left">
+      <h1>This website is awesome</h1>
+      <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
+        contrast</p>
+      <button type="button">Sign up</button>
+    </div>
+    <div id="intro-right">
+      <p>This is a placeholder for an image</p>
+    </div>
+  </section>
+  <section id="main">
     <h2>Some random information.</h2>
-    <span>Box</span>
-  </div>
+    <div id="boxes">
+      <span class="box"></span>
+      <span class="box"></span>
+      <span class="box"></span>
+      <span class="box"></span>
+    </div>
+    <div id="captions">
+      <span class="box">this is some subtext under an illustration or image</span>
+      <span class="box">this is some subtext under an illustration or image</span>
+      <span class="box">this is some subtext under an illustration or image</span>
+      <span class="box">this is some subtext under an illustration or image</span>
+    </div>
+  </section>
+  <section id="quote">
+    <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+    <p>-Thor God of Thunder</p>
+  </section>
+  <section id="end">
+    <div id="end-left">
+      <h2>Call to action! It's time!</h2>
+      <p>Sign up for our product by clicking that button right over there!</p>
+    </div>
+    <div id="end-right">
+      <button type="button">Sign up</button>
+    </div>
+  </section>
+  <section id="footer">
+    <p>Copyright &copy; The Odin Project 2021</p>
+  </section>
 </body>
+
 </html>
